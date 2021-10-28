@@ -9,7 +9,7 @@ Runs fnctions from various header files.
 Header file containing IO functions, 
 Interface between User and Program 
 
-#Operations.h
+### Operations.h
 Header file containing all functions created for specific operations,
 Including Addition, Subtraction, Multiplication, and so on...
 All those functions are abstracted away.
@@ -17,7 +17,7 @@ The only visible function visible is getFunctionToRun()
 decideWhatToDo will return a function pointer that can be ran.
 
 
-#DataBase.h
+### DataBase.h
 Contains MultiDimensional Arrays that can be used to store data.
 Syntax Sugar: Just include this header file to access these arrays instead
 of passing them by reference each time.
