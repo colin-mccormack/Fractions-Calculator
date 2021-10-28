@@ -38,7 +38,7 @@
 #define OP_GET_FRACTIONS             2  
 #define OP_DISPLAY_FRACTIONS         3 
 
-#define OP_ADD_FRACTIONS             4
+ #define OP_ADD_FRACTIONS             4
 #define OP_SUB_FRACTIONS             5
 #define OP_DIV_FRACTIONS             6
 #define OP_MUL_FRACTIONS             7
@@ -276,13 +276,15 @@ void CreateRandomFraction() {
   
   */
 
-    int
+    int num, den = 0;
     
     // Generator Numerator
-    num = rand() % IO_MAX_NUMERATOR,
+    num = rand() % IO_MAX_NUMERATOR;
     
     // Generate Denominator
-    den = rand() % IO_MAX_DENOMINATOR;
+    //While loop checks if denominator is zero and if so regenerate until you get a valid one
+    while(!den)
+      den = rand() % IO_MAX_DENOMINATOR;
 
     /* 
 
