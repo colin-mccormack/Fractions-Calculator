@@ -16,7 +16,6 @@
       Including Addition, Subtraction, Multiplication, and so on...
       All those functions are abstracted away.
       The only visible function visible is getFunctionToRun()
-      decideWhatToDo will return a function pointer that can be ran.
 
     - DataBase.h
       Contains MultiDimensional Arrays that can be used to store data.
