@@ -38,7 +38,7 @@
 #define OP_GET_FRACTIONS             2  
 #define OP_DISPLAY_FRACTIONS         3 
 
- #define OP_ADD_FRACTIONS             4
+#define OP_ADD_FRACTIONS             4
 #define OP_SUB_FRACTIONS             5
 #define OP_DIV_FRACTIONS             6
 #define OP_MUL_FRACTIONS             7
