@@ -1,5 +1,4 @@
 # A01 Fraction Program
-Fraction Calculator without using structures for ICS4U.
 
 ## Program Structure:
 
