@@ -200,6 +200,12 @@ static void simplifyFractions(int *numerator, int *denominator) {
 
   *numerator   = *numerator   / GCD;
   *denominator = *denominator / GCD;
+
+  if (*denominator < 0) {
+    *denominator *= -1; 
+    *numerator *= -1; 
+  }
+  
 }
 
 
