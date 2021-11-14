@@ -25,7 +25,7 @@ of passing them by reference each time.
 ## Authors
 
 - Abdul Mannan Syed, asyed24@ocdsb.ca
-- Collin McMcormack, cmcco3@ocdsb.ca
+- Colin McMcormack, cmcco3@ocdsb.ca
 
 10/26/2021
 
